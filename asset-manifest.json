@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shyno974/react-movie.git/static/css/main.43d471ef.css",
+    "main.js": "/shyno974/react-movie.git/static/js/main.a94a4a0d.js",
+    "index.html": "/shyno974/react-movie.git/index.html",
+    "main.43d471ef.css.map": "/shyno974/react-movie.git/static/css/main.43d471ef.css.map",
+    "main.a94a4a0d.js.map": "/shyno974/react-movie.git/static/js/main.a94a4a0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43d471ef.css",
+    "static/js/main.a94a4a0d.js"
+  ]
+}
