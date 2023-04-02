@@ -1,0 +1,42 @@
+.accueil-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+
+    .search-container{
+        margin-bottom: 50px;
+        input{
+            border-radius: 10px;
+            border: none;
+            padding: 10px;
+            background: rgb(224, 205, 205);
+            box-shadow: 5px 5px 5px rgb(0, 0, 0);
+            
+            
+            &:focus{
+                background: whitesmoke;
+                
+            }
+        }
+        button{
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            color: whitesmoke;
+            box-shadow: 5px 5px 5px rgb(0, 0, 0);
+            &:hover{
+                background: rgb(96, 90, 90);
+            }
+        }
+        
+    }
+    
+    .card-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+}

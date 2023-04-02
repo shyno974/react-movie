@@ -1,0 +1,29 @@
+.presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vh;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom:30px ;
+    background: linear-gradient(to right, red, black);
+    box-shadow: 10px 10px 10px rgba(255, 255, 255,);
+    .liste{
+        background: none;
+        a{
+            background: none;
+            text-decoration: none;
+            margin: 10px;
+            font-size: large;
+            font-weight: bolder;
+            color:rgb(28, 28, 234);
+            &:hover {
+                color: rgb(57, 126, 187);
+            }
+        }
+    }
+    .title{
+        background: none;
+    }
+}
