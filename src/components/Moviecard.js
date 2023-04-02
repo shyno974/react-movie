@@ -4,7 +4,8 @@ import React, { useEffect, useState } from "react";
 const Moviecard = ({ movie }) => {
   const maDate = new Date(movie.release_date);
   let myImg = "";
-  console.log(movie);
+  const ids = movie.id;
+
   if (movie.poster_path == null) {
     myImg = "logo192.png";
   } else {
@@ -15,7 +16,7 @@ const Moviecard = ({ movie }) => {
     axios
       .get(
         "https://api.themoviedb.org/3/movie/" +
-          movie.id +
+          ids +
           "?api_key=9f44a50a5ee63c57193c6bee26e427bd"
       )
       .then((detailFilm) => {
